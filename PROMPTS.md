@@ -130,3 +130,15 @@ Deliverables
 - (Optional - Brownie Points) A link to the deployed, live application on a platform like Vercel, Netlify, Heroku, or AWS.
 
 Note: Plagiarism is strictly forbidden. While we encourage AI assistance, submitting code copied from other repositories or developers will result in immediate rejection. We want to see your work, augmented by modern tools. complete this whole thing
+
+## Assistant
+
+I’ll scaffold a working full-stack implementation in the current workspace, then run the backend and frontend checks that fit the available environment. I’ll use FastAPI with persistent SQLite storage and a React/Tailwind SPA, and document anything that cannot be verified here.
+
+## Assistant
+
+The workspace was empty beyond its Copilot instructions, so I’ve begun by writing the API tests and confirmed they fail before the implementation exists. Next I’m adding the persistent backend, then the React interface and run instructions.
+
+## Assistant
+
+The backend suite now passes, and the frontend exposed a missing Vite type declaration during its first build. I’m correcting the TypeScript setup and updating the frontend toolchain to patched, compatible releases before the browser and production-build checks.
